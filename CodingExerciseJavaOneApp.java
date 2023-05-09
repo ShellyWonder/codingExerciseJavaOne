@@ -9,5 +9,8 @@ public class CodingExerciseJavaOneApp {
 	
 	}
 	//and print the car's details using the toString() method.
+	public String toString( ) {
+		return "Car Information: "  + make + " " + model+ " " + year;
+	}
 
 }
