@@ -46,7 +46,11 @@ public class CarClass {
 	}
 	//Implement a toString() method that returns a formatted string with 
 	//the car's make, model, and year.
-	public String toString( ) {
-		return "Car Information: "  + make + " " + model+ " " + year;
+
+	@Override
+	public String toString() {
+		return "CarClass [make=" + make + ", model=" + model + ", year=" + year + "]";
 	}
+	
+	
 }

@@ -10,4 +10,10 @@ public class CodingExerciseJavaOneApp {
 	}
 	//and print the car's details using the toString() method.
 
+	@Override
+	public String toString() {
+		return "CodingExerciseJavaOneApp [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+
 }

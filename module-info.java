@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Shelly
- *
- */
-module codingExerciseJavaOne {
-}
